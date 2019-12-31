@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="inoutlogger",
-    version="1.0.0",
+    version="1.0.1",
     author="Pankaj Suthar",
     author_email="sutharpanks.opensource@gmail.com",
     description="Decorator based utility to implement Entry-Exit logs for methods",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache 2.0 License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6'
