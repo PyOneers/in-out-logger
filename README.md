@@ -54,4 +54,4 @@ def test(handler_name="Other"):
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](https://github.com/PanksSuthar/InOutLogger/blob/master/LICENSE) file for details
