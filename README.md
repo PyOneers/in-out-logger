@@ -28,7 +28,7 @@ logger1 = Logger(log_handler ="LOGGER",  name="application_logger")
 
 InOutLogger(logger1)
 
-@entry_exit_log
+@in_out_log
 def test():
   print("Done Single log handler")
   
@@ -40,7 +40,7 @@ logger2 = Logger(log_handler ="LOGGER2",  name="Other")
 
 InOutLogger([logger1, logger2])
 
-@entry_exit_log
+@in_out_log
 def test(handler_name="Other"):
   print("Done Multiple log handler")
   
