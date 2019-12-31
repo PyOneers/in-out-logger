@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    entry_exit_logger.py
+    decorators.py
     ~~~~~~~~~~~~~~~~~~~~~
     Author : Pankaj Suthar
 """
