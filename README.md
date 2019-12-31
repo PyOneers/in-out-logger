@@ -12,13 +12,13 @@ python>=3.6
 
 ### Installing
 
-```
+```bash
 pip install inoutlogger
 ```
 
 ### A Simple Example
 
-```
+```python
 from inoutlogger.utils import InOutLogger, Logger
 from inoutlogger.decorators import entry_exit_log
 
