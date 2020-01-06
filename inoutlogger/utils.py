@@ -36,6 +36,8 @@ class InOutLogger:
                 raise Exception("LOGGERS must be list of [ InOutLogger.Logger ]")
 
             self.supress_warings = supress_warings
+        
+        InOutLogger.__instance = self
 
 class Logger:
     def __init__(self, log_handler, name, entry_identifier=">>>>", exit_identifier="<<<<", log_time=False):
