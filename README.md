@@ -24,7 +24,7 @@ from inoutlogger.decorators import entry_exit_log
 
 # With Single Logger
 LOGGER # Your Application Logger
-logger1 = Logger(log_handler ="LOGGER",  name="application_logger")
+logger1 = Logger(log_handler =LOGGER,  name="application_logger")
 
 InOutLogger(logger1)
 
@@ -35,13 +35,13 @@ def test():
 # With Multiple Logger
 LOGGER1 # Your Application Logger
 LOGGER2 # Other Logger
-logger1 = Logger(log_handler ="LOGGER1",  name="application_logger")
+logger1 = Logger(log_handler =LOGGER1,  name="application_logger")
 logger2 = Logger(log_handler ="LOGGER2",  name="Other")
 
 InOutLogger([logger1, logger2])
 
-@in_out_log
-def test(handler_name="Other"):
+@in_out_log(handler_name="Other")
+def test():
   print("Demo Multiple log handler")
   
 ```
