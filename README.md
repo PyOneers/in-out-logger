@@ -36,7 +36,7 @@ def test():
 LOGGER1 # Your Application Logger
 LOGGER2 # Other Logger
 logger1 = Logger(log_handler =LOGGER1,  name="application_logger")
-logger2 = Logger(log_handler ="LOGGER2",  name="Other")
+logger2 = Logger(log_handler =LOGGER2,  name="Other")
 
 InOutLogger([logger1, logger2])
 
