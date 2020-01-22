@@ -6,7 +6,7 @@ Decorator based utility to implement Entry-Exit logs for methods
 
 ### Prerequisites
 
-```
+```python
 python>=3.6
 ```
 
@@ -47,11 +47,6 @@ def test():
 ```
 
 
-
-## Authors
-
-* **Pankaj Suthar** - *Initial work* - [PankajSuthar](https://github.com/PanksSuthar)
-
 ## License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE.md](https://github.com/PanksSuthar/InOutLogger/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/PyOneers/in-out-logger/blob/master/LICENSE) file for details

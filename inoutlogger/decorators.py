@@ -19,9 +19,9 @@ def in_out_log(*args, **kwargs):
 
             log_handler, entry_identifier, exit_identifier, log_time = None, None, None, False
             pass_handeler_name_check = False
+            
             # Get Log Handlers
             handlers = InOutLogger.getResources().LOGGERS
-            supress_warings =InOutLogger.getResources().supress_warings
             if handler_name is None and len(handlers) > 1:
                 raise Exception(
                         "Multiple Logger(inoutlogger.utils.Logger) found. Specify handler_name in decorator arguments to select which logger to be used")
