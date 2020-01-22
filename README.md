@@ -28,10 +28,12 @@ logger1 = Logger(log_handler =LOGGER,  name="application_logger")
 
 InOutLogger(logger1)
 
-@in_out_log
+@in_out_log()
 def test():
   print("Demo Single log handler")
   
+test() # See Log file for output
+
 # With Multiple Logger
 LOGGER1 # Your Application Logger
 LOGGER2 # Other Logger
@@ -44,6 +46,7 @@ InOutLogger([logger1, logger2])
 def test():
   print("Demo Multiple log handler")
   
+test() # See Log file for output  
 ```
 
 
