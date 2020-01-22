@@ -45,7 +45,6 @@ class InOutLogger:
                 raise Exception("LOGGERS must be list of [ InOutLogger.Logger ]")
 
             self.supress_warings = supress_warings
-        
         InOutLogger.__instance = self
 
 
