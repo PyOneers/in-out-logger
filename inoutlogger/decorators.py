@@ -16,10 +16,8 @@ def in_out_log(*args, **kwargs):
 
     def decorator(func):
         def inner(*args, **kwargs):
-
             log_handler, entry_identifier, exit_identifier, log_time = None, None, None, False
-            pass_handeler_name_check = False
-            
+            pass_handeler_name_check = False            
             # Get Log Handlers
             handlers = InOutLogger.getResources().LOGGERS
             if handler_name is None and len(handlers) > 1:
